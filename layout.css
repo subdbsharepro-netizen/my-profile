@@ -1,0 +1,73 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+    display: flex;
+    transition: background .3s ease, color .3s ease;
+}
+
+.display { font-family: 'Cormorant Garamond', serif; }
+.mono    { font-family: 'DM Mono', monospace; }
+
+/* ───────── SIDEBAR ───────── */
+
+.sidebar {
+    width: 320px;
+    min-width: 320px;
+    background: linear-gradient(158deg, var(--f900) 0%, var(--f800) 42%, #162f23 100%);
+    position: fixed;
+    top: 0; left: 0;
+    height: 100vh;
+    overflow-y: auto;
+    padding: 2.5rem 2rem 3rem;
+    z-index: 20;
+}
+
+.sidebar::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image:
+        linear-gradient(rgba(255,255,255,.04) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,.04) 1px, transparent 1px);
+    background-size: 28px 28px;
+    pointer-events: none;
+}
+
+.sidebar::after {
+    content: '';
+    position: absolute;
+    bottom: -5%; left: -5%;
+    width: 65%; height: 55%;
+    background: radial-gradient(ellipse, rgba(82,183,136,.13) 0%, transparent 70%);
+    pointer-events: none;
+}
+
+.sidebar-inner { position: relative; z-index: 1; }
+
+.sidebar::-webkit-scrollbar { width: 4px; }
+.sidebar::-webkit-scrollbar-thumb { background: rgba(255,255,255,.12); border-radius: 2px; }
+
+.main {
+    margin-left: 320px;
+    flex: 1;
+    padding: 3rem 3.5rem 4rem;
+    min-height: 100vh;
+}
+
+@media (max-width: 900px) {
+    body { flex-direction: column; }
+    .sidebar {
+        position: relative;
+        width: 100%;
+        min-width: unset;
+        height: auto;
+    }
+    .main { margin-left: 0; padding: 2rem 1.5rem 3rem; }
+}
+
+@media print {
+    .sidebar { position: relative; width: 30%; float: left; height: auto; }
+    .main { margin-left: 0; }
+}

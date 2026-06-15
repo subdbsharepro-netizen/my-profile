@@ -1,0 +1,25 @@
+{
+  "mathematics": [
+    { "name": "Algebra & Number Theory", "level": 90 },
+    { "name": "Calculus & Analysis", "level": 85 },
+    { "name": "Geometry", "level": 88 },
+    { "name": "Statistics & Probability", "level": 80 }
+  ],
+  "soft_skills": [
+    { "name": "Problem-Solving", "level": 95 },
+    { "name": "Classroom Management", "level": 90 },
+    { "name": "Communication", "level": 85 },
+    { "name": "Adaptability & Teamwork", "level": 90 }
+  ],
+  "languages": [
+    { "name": "Khmer", "level": 100, "status": "Native" },
+    { "name": "English", "level": 65, "status": "Intermediate" },
+    { "name": "French", "level": 40, "status": "Elementary" }
+  ],
+  "tech_tools": [
+    { "name": "LaTeX", "level": 75 },
+    { "name": "GeoGebra", "level": 88 },
+    { "name": "Excel/Sheets", "level": 80 },
+    { "name": "Web Research", "level": 92 }
+  ]
+}

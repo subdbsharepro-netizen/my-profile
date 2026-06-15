@@ -1,0 +1,25 @@
+[
+  {
+    "id": 1,
+    "title": "Mathematics Material Preparation",
+    "period": "2023 – 2026",
+    "description": "Prepared and organized comprehensive mathematics learning materials tailored for both university and high school levels. Assisted students in group activities and academic work, simplifying complex mathematical concepts.",
+    "tags": ["Curriculum Design", "Group Facilitation", "Mathematics"]
+  },
+  {
+    "id": 2,
+    "title": "\"Karol & Setha\" Short Training",
+    "organization": "Enfants du Mékong",
+    "period": "2023 – 2026",
+    "description": "Successfully completed intensive training focused on personal and professional development, communication skills, teamwork, and community engagement.",
+    "tags": ["Communication", "Teamwork", "Leadership"]
+  },
+  {
+    "id": 3,
+    "title": "Language Studies",
+    "organization": "Doctor Christophe Mérieux Center",
+    "period": "2023 – 2026",
+    "description": "Dedicated study of English and French languages to improve cross-cultural communication and academic versatility.",
+    "tags": ["English", "French", "Communication"]
+  }
+]

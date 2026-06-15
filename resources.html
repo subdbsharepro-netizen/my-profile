@@ -1,0 +1,226 @@
+<section>
+  <h2 class="m-head">Learning Resources</h2>
+  <p class="m-sub">Downloadable study guides, worksheets, and reference materials for mathematics students.</p>
+
+  <div class="resource-search">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+    <input type="text" id="resSearch" placeholder="Search resources (e.g. Calculus, Algebra)..." onkeyup="filterResources()">
+  </div>
+
+  <div class="resource-filters">
+    <button class="rfilter active" onclick="setResourceFilter('all')">All</button>
+    <button class="rfilter" onclick="setResourceFilter('university')">University</button>
+    <button class="rfilter" onclick="setResourceFilter('highschool')">High School</button>
+    <button class="rfilter" onclick="setResourceFilter('guides')">Guides</button>
+  </div>
+
+  <div class="res-list" id="resList">
+    <!-- Functions Part 1 -->
+    <div class="res-row" data-cat="guides">
+      <div class="res-icon">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+      </div>
+      <div class="res-info">
+        <div class="res-name">Functions part 1</div>
+        <div class="res-meta">PDF • Educational Guide</div>
+      </div>
+      <span class="res-tag">Guides</span>
+      <a href="https://drive.google.com/file/d/1-JpDNuj5boaGbT2pg36l2crXFp7wtvhB/view?usp=drivesdk" target="_blank" class="res-dl" aria-label="Download"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg></a>
+    </div>
+
+    <!-- Functions Part 2 -->
+    <div class="res-row" data-cat="guides">
+      <div class="res-icon">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+      </div>
+      <div class="res-info">
+        <div class="res-name">Functions part 2</div>
+        <div class="res-meta">PDF • Educational Guide</div>
+      </div>
+      <span class="res-tag">Guides</span>
+      <a href="https://drive.google.com/file/d/1K_fnNH2i1PuAjzZDInndIX90v7fimiEH/view?usp=drivesdk" target="_blank" class="res-dl" aria-label="Download"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg></a>
+    </div>
+
+    <!-- Functions Part 3 -->
+    <div class="res-row" data-cat="guides">
+      <div class="res-icon">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+      </div>
+      <div class="res-info">
+        <div class="res-name">Functions part 3</div>
+        <div class="res-meta">PDF • Educational Guide</div>
+      </div>
+      <span class="res-tag">Guides</span>
+      <a href="https://drive.google.com/file/d/1lmu6JZHzszEOqr_n1qu-caPVwpsd_rMN/view?usp=drivesdk" target="_blank" class="res-dl" aria-label="Download"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg></a>
+    </div>
+
+    <!-- Functions Part 4 -->
+    <div class="res-row" data-cat="guides">
+      <div class="res-icon">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+      </div>
+      <div class="res-info">
+        <div class="res-name">Functions part 4</div>
+        <div class="res-meta">PDF • Educational Guide</div>
+      </div>
+      <span class="res-tag">Guides</span>
+      <a href="https://drive.google.com/file/d/15YDyFQlkQ1x5WgNMizR3eBoxq_-s2EmS/view?usp=drivesdk" target="_blank" class="res-dl" aria-label="Download"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg></a>
+    </div>
+
+    <!-- Functions Part 5 -->
+    <div class="res-row" data-cat="guides">
+      <div class="res-icon">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+      </div>
+      <div class="res-info">
+        <div class="res-name">Functions part 5</div>
+        <div class="res-meta">PDF • Educational Guide</div>
+      </div>
+      <span class="res-tag">Guides</span>
+      <a href="https://drive.google.com/file/d/1O2WNIajqBUom0PbDYCEqtLb2s-PnGXK1/view?usp=drivesdk" target="_blank" class="res-dl" aria-label="Download"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg></a>
+    </div>
+
+    <!-- Functions Part 6 -->
+    <div class="res-row" data-cat="guides">
+      <div class="res-icon">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+      </div>
+      <div class="res-info">
+        <div class="res-name">Functions part 6</div>
+        <div class="res-meta">PDF • Educational Guide</div>
+      </div>
+      <span class="res-tag">Guides</span>
+      <a href="https://drive.google.com/file/d/1LlZ1PfrXr8dN7nwwGO0PUG_vHdcrXwrG/view?usp=drivesdk" target="_blank" class="res-dl" aria-label="Download"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg></a>
+    </div>
+
+    <!-- Functions Part 7 -->
+    <div class="res-row" data-cat="guides">
+      <div class="res-icon">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+      </div>
+      <div class="res-info">
+        <div class="res-name">Functions part 7</div>
+        <div class="res-meta">PDF • Educational Guide</div>
+      </div>
+      <span class="res-tag">Guides</span>
+      <a href="https://drive.google.com/file/d/1IfzmFvVEVctjKoeTiiZbM35u4EFLAT8N/view?usp=drivesdk" target="_blank" class="res-dl" aria-label="Download"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg></a>
+    </div>
+
+    <!-- Functions Part 8 -->
+    <div class="res-row" data-cat="guides">
+      <div class="res-icon">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+      </div>
+      <div class="res-info">
+        <div class="res-name">Functions part 8</div>
+        <div class="res-meta">PDF • Educational Guide</div>
+      </div>
+      <span class="res-tag">Guides</span>
+      <a href="https://drive.google.com/file/d/1v77Qvn-7wAKhRzH8zmyJxR81b06uQGcv/view?usp=drivesdk" target="_blank" class="res-dl" aria-label="Download"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg></a>
+    </div>
+
+    <!-- Functions Part 9 -->
+    <div class="res-row" data-cat="guides">
+      <div class="res-icon">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+      </div>
+      <div class="res-info">
+        <div class="res-name">Functions part 9</div>
+        <div class="res-meta">PDF • Educational Guide</div>
+      </div>
+      <span class="res-tag">Guides</span>
+      <a href="https://drive.google.com/file/d/1Tw8IRmu60szADWX1zAdds6XFNP3SFEuE/view?usp=drivesdk" target="_blank" class="res-dl" aria-label="Download"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg></a>
+    </div>
+
+    <!-- Functions Part 10 -->
+    <div class="res-row" data-cat="guides">
+      <div class="res-icon">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+      </div>
+      <div class="res-info">
+        <div class="res-name">Functions part 10</div>
+        <div class="res-meta">PDF • Educational Guide</div>
+      </div>
+      <span class="res-tag">Guides</span>
+      <a href="https://drive.google.com/file/d/1xuk4fs7105NdVyHvp63hegWXyPnZNIFY/view?usp=drivesdk" target="_blank" class="res-dl" aria-label="Download"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg></a>
+    </div>
+
+    <!-- Functions Part 11 -->
+    <div class="res-row" data-cat="guides">
+      <div class="res-icon">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+      </div>
+      <div class="res-info">
+        <div class="res-name">Functions part 11</div>
+        <div class="res-meta">PDF • Educational Guide</div>
+      </div>
+      <span class="res-tag">Guides</span>
+      <a href="https://drive.google.com/file/d/1gwdyVU7e7morCtaAP0TLSH-UlL747IvX/view?usp=drivesdk" target="_blank" class="res-dl" aria-label="Download"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg></a>
+    </div>
+
+    <!-- Functions Part 12 -->
+    <div class="res-row" data-cat="guides">
+      <div class="res-icon">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+      </div>
+      <div class="res-info">
+        <div class="res-name">Functions part 12</div>
+        <div class="res-meta">PDF • Educational Guide</div>
+      </div>
+      <span class="res-tag">Guides</span>
+      <a href="https://drive.google.com/file/d/1pe8-NaWqZmEiQv-IbvTeH0h4qjmtrJ_M/view?usp=drivesdk" target="_blank" class="res-dl" aria-label="Download"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg></a>
+    </div>
+
+    <!-- Functions Part 13 -->
+    <div class="res-row" data-cat="guides">
+      <div class="res-icon">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+      </div>
+      <div class="res-info">
+        <div class="res-name">Functions part 13</div>
+        <div class="res-meta">PDF • Educational Guide</div>
+      </div>
+      <span class="res-tag">Guides</span>
+      <a href="https://drive.google.com/file/d/1TlZ0a0qMWBCM1yLFrgI7BQwllDKPUzW/view?usp=drivesdk" target="_blank" class="res-dl" aria-label="Download"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg></a>
+    </div>
+
+    <!-- Functions Part 14 -->
+    <div class="res-row" data-cat="guides">
+      <div class="res-icon">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+      </div>
+      <div class="res-info">
+        <div class="res-name">Functions part 14</div>
+        <div class="res-meta">PDF • Educational Guide</div>
+      </div>
+      <span class="res-tag">Guides</span>
+      <a href="https://drive.google.com/file/d/1kasqqrgzIdT6EnsmnYilOM8-6uKf5MJV/view?usp=drivesdk" target="_blank" class="res-dl" aria-label="Download"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg></a>
+    </div>
+
+    <!-- Functions Part 15 -->
+    <div class="res-row" data-cat="guides">
+      <div class="res-icon">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+      </div>
+      <div class="res-info">
+        <div class="res-name">Functions part 15</div>
+        <div class="res-meta">PDF • Educational Guide</div>
+      </div>
+      <span class="res-tag">Guides</span>
+      <a href="https://drive.google.com/file/d/1_wu_3vYnG8AUw69UI2RVtcYg33thMoVj/view?usp=drivesdk" target="_blank" class="res-dl" aria-label="Download"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg></a>
+    </div>
+
+    <!-- Jensen's inequality -->
+    <div class="res-row" data-cat="guides">
+      <div class="res-icon">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+      </div>
+      <div class="res-info">
+        <div class="res-name">Jensen's inequality</div>
+        <div class="res-meta">PDF • Educational Guide</div>
+      </div>
+      <span class="res-tag">Guides</span>
+      <a href="https://drive.google.com/file/d/1pUGyUd5xLVVhRVvrJtd80WIgukL6P5zy/view?usp=drivesdk" target="_blank" class="res-dl" aria-label="Download"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg></a>
+    </div>
+    </div>
+</section>

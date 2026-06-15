@@ -1,0 +1,48 @@
+:root {
+    --f900: #0a1f15;
+    --f800: #0d2818;
+    --f700: #1a3d2b;
+    --f600: #2e6b4e;
+    --f500: #3d8b67;
+    --f400: #52b788;
+    --f300: #74c69d;
+    --f200: #b7e4c7;
+    --a600: #d97706;
+    --a500: #f59e0b;
+    --a400: #fbbf24;
+    --a100: #fef3c7;
+    --ivory: #f7f5f0;
+    --s100: #f5f5f4;
+    --s200: #e7e5e4;
+    --s300: #d6d3d1;
+    --s400: #a8a29e;
+    --s500: #78716c;
+    --s600: #57534e;
+    --ink: #1c1917;
+
+    /* semantic tokens (swap in dark mode) */
+    --bg: var(--ivory);
+    --surface: #ffffff;
+    --surface-2: var(--s100);
+    --border: rgba(0,0,0,.045);
+    --border-soft: var(--s200);
+    --text: var(--ink);
+    --text-muted: var(--s500);
+    --text-dim: var(--s400);
+    --shadow-sm: 0 1px 3px rgba(0,0,0,.05), 0 4px 16px rgba(0,0,0,.04);
+    --shadow-lg: 0 1px 4px rgba(0,0,0,.05), 0 8px 32px rgba(0,0,0,.07);
+}
+
+html[data-theme="dark"] {
+    --bg: #0b1410;
+    --surface: #11201a;
+    --surface-2: #16261f;
+    --border: rgba(255,255,255,.07);
+    --border-soft: rgba(255,255,255,.09);
+    --text: #ecf3ee;
+    --text-muted: #9fb3a8;
+    --text-dim: #6e8579;
+    --shadow-sm: 0 1px 3px rgba(0,0,0,.3), 0 4px 16px rgba(0,0,0,.25);
+    --shadow-lg: 0 1px 4px rgba(0,0,0,.3), 0 8px 32px rgba(0,0,0,.35);
+    --a100: rgba(245,158,11,.14);
+}

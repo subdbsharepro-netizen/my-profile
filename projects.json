@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "University Math Prep Modules",
+    "description": "Developed a series of visual guidebooks for first-year university students covering Calculus I and Linear Algebra, simplifying theorem proofs into step-by-step logical diagrams.",
+    "thumb": "📐",
+    "bg": "#e7f5ed",
+    "tags": ["Curriculum Design", "Pedagogy"]
+  },
+  {
+    "id": 2,
+    "title": "Study Group Leadership (RUPP)",
+    "description": "Organized and led weekly peer-assisted learning sessions for a group of 15+ students. Focused on real-world applications of abstract algebra and statistical analysis.",
+    "thumb": "📊",
+    "bg": "#fdf6e9",
+    "tags": ["Leadership", "Collaboration"]
+  },
+  {
+    "id": 3,
+    "title": "Interactive Geometry Visuals",
+    "description": "Created a library of dynamic GeoGebra simulations for secondary school geometry, helping students visualize 3D transformations and complex trigonometry identities.",
+    "thumb": "💻",
+    "bg": "#ebf4ff",
+    "tags": ["GeoGebra", "Ed-Tech"]
+  },
+  {
+    "id": 4,
+    "title": "High School Exam Prep Series",
+    "description": "Curated a database of past Bac II examination problems with comprehensive, student-friendly solutions focused on logical derivation rather than rote memorization.",
+    "thumb": "📓",
+    "bg": "#fff1f2",
+    "tags": ["Exam Prep", "Content Creation"]
+  },
+  {
+    "id": 5,
+    "title": "Mathematical Logic Workshop",
+    "description": "Facilitated a series of workshops for undergraduate peers on formal proofs and symbolic logic, focusing on bridging the gap between natural language and mathematical notation.",
+    "thumb": "📐",
+    "bg": "#f3f4f6",
+    "tags": ["Logic", "Teaching"]
+  },
+  {
+    "id": 6,
+    "title": "Statistical Analysis Project",
+    "description": "Conducted a research project on student performance trends in rural Banteay Meanchey, using Excel for data visualization and regression analysis.",
+    "thumb": "📊",
+    "bg": "#ecfdf5",
+    "tags": ["Statistics", "Research"]
+  }
+]

@@ -1,0 +1,92 @@
+.timeline {
+    padding-left: 1.5rem;
+    border-left: 2px solid var(--border-soft);
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.tl-item { position: relative; }
+.tl-num {
+    position: absolute;
+    left: calc(-1.5rem - 17px);
+    top: 1.2rem;
+    width: 34px; height: 34px;
+    background: var(--f700);
+    border: 3px solid var(--bg);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'DM Mono', monospace;
+    font-size: .62rem;
+    color: #fff;
+    font-weight: 500;
+    flex-shrink: 0;
+}
+.tl-card {
+    background: var(--surface);
+    border-radius: 14px;
+    padding: 1.5rem 1.75rem;
+    box-shadow: var(--shadow-sm);
+    border: 1px solid var(--border);
+    transition: box-shadow .2s ease, transform .2s ease;
+}
+.tl-card:hover {
+    box-shadow: 0 4px 20px rgba(26,61,43,.1);
+    transform: translateY(-2px);
+}
+.tl-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: .5rem;
+    margin-bottom: .35rem;
+}
+.tl-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--text);
+}
+.tl-badge {
+    font-family: 'DM Mono', monospace;
+    font-size: .68rem;
+    color: var(--a600);
+    font-weight: 500;
+    background: var(--a100);
+    padding: .22rem .75rem;
+    border-radius: 9999px;
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+html[data-theme="dark"] .tl-badge { color: var(--a400); }
+.tl-org {
+    font-size: .76rem;
+    color: var(--f500);
+    font-weight: 500;
+    margin-bottom: .55rem;
+}
+html[data-theme="dark"] .tl-org { color: var(--f300); }
+.tl-desc { font-size: .85rem; color: var(--text-muted); line-height: 1.7; }
+
+.tl-tags { display: flex; flex-wrap: wrap; gap: .4rem; margin-top: .85rem; }
+.tl-tag {
+    font-size: .67rem;
+    font-weight: 500;
+    color: var(--f600);
+    background: var(--f200);
+    padding: .22rem .65rem;
+    border-radius: 6px;
+}
+html[data-theme="dark"] .tl-tag { background: rgba(82,183,136,.15); color: var(--f300); }
+
+.edu-item {
+    padding-left: .8rem;
+    border-left: 2px solid var(--a500);
+    margin-bottom: .95rem;
+}
+.edu-item.faded { border-left-color: rgba(255,255,255,.15); }
+.edu-degree  { font-weight: 600; font-size: .8rem; color: #fff; margin-bottom: .18rem; }
+.edu-school  { font-size: .73rem; color: rgba(255,255,255,.52); }
+.edu-years   { font-family: 'DM Mono', monospace; font-size: .63rem; color: var(--f300); margin-top: .22rem; }

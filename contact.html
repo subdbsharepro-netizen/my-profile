@@ -1,0 +1,56 @@
+<section>
+  <h2 class="m-head">Let's Connect</h2>
+  <div class="contact-grid">
+    <div class="contact-info-card">
+      <div class="cinfo-row">
+        <div class="cinfo-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div>
+        <div>
+          <div class="cinfo-label">Email</div>
+          <div class="cinfo-value"><a href="mailto:chinhyin510@gmail.com">chinhyin510@gmail.com</a></div>
+        </div>
+      </div>
+      <div class="cinfo-row">
+        <div class="cinfo-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013 4.18 2 2 0 014.18 2H7a2 2 0 012 1.72c.127.96.361 1.903.7 2.81l-1.21 1.21a16 16 0 006.29 6.29l1.21-1.21a12.84 12.84 0 012.81.7A2 2 0 0122 16.92z"/></svg></div>
+        <div>
+          <div class="cinfo-label">Phone</div>
+          <div class="cinfo-value"><a href="tel:+85593244951">093 244 951</a></div>
+        </div>
+      </div>
+      <div class="cinfo-row">
+        <div class="cinfo-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+        <div>
+          <div class="cinfo-label">Location</div>
+          <div class="cinfo-value">Tuol Kork, Phnom Penh</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact-form-card">
+      <form id="contactForm" onsubmit="handleContactSubmit(event)">
+        <div class="form-row-double">
+          <div class="form-row">
+            <label>Name</label>
+            <input type="text" placeholder="Your Name" required>
+          </div>
+          <div class="form-row">
+            <label>Email</label>
+            <input type="email" placeholder="your@email.com" required>
+          </div>
+        </div>
+        <div class="form-row">
+          <label>Subject</label>
+          <input type="text" placeholder="Inquiry about..." required>
+        </div>
+        <div class="form-row">
+          <label>Message</label>
+          <textarea rows="4" placeholder="How can I help you?" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary" style="width:100%; justify-content:center;">Send Message</button>
+        <div id="formSuccess" class="form-success">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg>
+          Message sent successfully! I'll get back to you soon.
+        </div>
+      </form>
+    </div>
+  </div>
+</section>

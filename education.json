@@ -1,0 +1,33 @@
+[
+  {
+    "id": 1,
+    "degree": "Primary School",
+    "school": "Local Primary School, Banteay Meanchey",
+    "period": "2011 – 2017",
+    "description": "Built foundational literacy and numeracy skills, with early signs of strength and enthusiasm in arithmetic and problem-solving exercises.",
+    "awards": ["Top of Class — Mathematics"]
+  },
+  {
+    "id": 2,
+    "degree": "Secondary School",
+    "school": "Svay Chek Secondary School, Banteay Meanchey",
+    "period": "2017 – 2022",
+    "description": "Developed a strong interest in algebra and geometry, participated in classroom academic activities, and began informally helping classmates with homework."
+  },
+  {
+    "id": 3,
+    "degree": "High School Diploma",
+    "school": "Svay Chek High School",
+    "period": "2022 – 2023",
+    "description": "Completed upper secondary studies with a focus on mathematics and natural sciences, graduating with results strong enough to gain admission to a leading public university.",
+    "awards": ["Honor Roll, Final Year"]
+  },
+  {
+    "id": 4,
+    "degree": "B.S. Mathematics (Year 3)",
+    "school": "Royal University of Phnom Penh",
+    "period": "2023 – Present",
+    "description": "Currently in the third year of undergraduate study, covering analysis, algebra, and applied mathematics, while preparing teaching materials and supporting peer study groups for both high school and university students.",
+    "tags": ["Pure Mathematics", "Applied Mathematics", "Statistics", "Peer Tutoring"]
+  }
+]

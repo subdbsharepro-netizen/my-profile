@@ -1,0 +1,9 @@
+{
+  "greetings": ["Hi!", "Hello!", "Greetings!"],
+  "intent_replies": {
+    "tutoring": "Chhaychinh has over 3 years of experience preparing math materials and leading study groups for both high school and university students.",
+    "contact": "You can reach Chhaychinh via Telegram, email (chinhyin510@gmail.com), or the contact form on this site.",
+    "skill": "Chhaychinh is highly proficient in Calculus, Algebra, and using tools like GeoGebra for mathematical visualization.",
+    "default": "That's a great question! Chhaychinh usually responds to inquiries within 24 hours. You can also email him at chinhyin510@gmail.com."
+  }
+}
